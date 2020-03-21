@@ -33,3 +33,10 @@ The solution has the following dependencies:
     * Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip) 
     * Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
+#### Instructions
+
+In order to run the solution:
+* Clone or download the repository
+* Add the Unity environment file in the "Navigation" folder
+* Open "Navigation.ipynb" notebook, and run the code cells
+When the environment is solved, you will see a plot with the scores that the agent received in each training episode 
