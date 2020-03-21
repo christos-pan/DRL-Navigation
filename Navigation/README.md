@@ -27,7 +27,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 The solution has the following dependencies:
 1. **IPython**. The code is provided as a IPython notebook (Python 3). Please follow [these instructions](https://ipython.org/install.html) to install it. 
 2. **Project dependencies**. Please follow the [instructions in the DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to install Python dependencies specific to the project.
-3. **Unity Environment**. Follow the link below that corresponds to your operating system to download the Unity environment. Then, place the file in the same folder as the solution files, and unzip it. 
+3. **Unity Environment**. Follow the link below that corresponds to your operating system to download the Unity environment.
     * Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip) 
     * Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip) 
     * Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip) 
@@ -36,7 +36,6 @@ The solution has the following dependencies:
 #### Instructions
 
 In order to run the solution:
-* Clone or download the repository
-* Add the Unity environment file in the "Navigation" folder
-* Open "Navigation.ipynb" notebook, and run the code cells
-When the environment is solved, you will see a plot with the scores that the agent received in each training episode 
+* Clone or download the repository.
+* Place the Unity environment file in the "Navigation" folder, and unzip it.
+* Open "Navigation.ipynb" notebook, and run the code cells. When the environment is solved, you will see a plot with the scores that the agent received in each training episode 
