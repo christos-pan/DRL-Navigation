@@ -1,4 +1,4 @@
-## Navigation Project
+## Navigation project
 
 #### Introduction
 
