@@ -1,1 +1,1 @@
-# DRL-Navigation
+# deep-reinforcement-learning
