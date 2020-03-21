@@ -26,3 +26,10 @@ The solution's neural networks (local and target) have the following layers:
 * Dropout layer (rate = 0.2)
 * Fully connected layer (In 50, Out 4)
 
+#### Training results
+
+The environment was solved in 457 episodes, with a maximum of 400 steps per episode.
+The total rewards per episode are plotted below.
+
+![Scores per episode](https://github.com/christos-pan/deep-reinforcement-learning/blob/master/Navigation/scores-per-episode-plot.png)
+
