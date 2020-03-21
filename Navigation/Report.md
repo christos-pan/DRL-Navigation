@@ -33,3 +33,10 @@ The total rewards per episode are plotted below.
 
 ![Scores per episode](https://github.com/christos-pan/deep-reinforcement-learning/blob/master/Navigation/scores-per-episode-plot.png)
 
+#### Future work
+
+The following ideas can be explored in the future, in order to make the training process faster:
+
+* Further experimentation with algorithm hyperparameters
+* Further experimentation with different neural network architectures
+* Implementation of more advanced improvements of the DQN algorithm, e.g. dueling DQN, prioritized experience replay or a combination of them (and possibly others), e.g. rainbow algorithm
