@@ -36,7 +36,7 @@ The solution has the following dependencies:
 #### Instructions
 
 In order to run the solution:
-* Clone or download the repository.
+* Clone or download the repository
 * Open "Navigation.ipynb" notebook
 * **Before running the code**, change the *file_name* parameter to match the location of the Unity environment that you downloaded
 * Run the code cells. When the environment is solved, you will see a plot with the scores that the agent received in each training episode 
