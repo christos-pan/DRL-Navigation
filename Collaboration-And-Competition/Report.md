@@ -47,3 +47,10 @@ The critic's neural networks (local and target) have the following layers:
 * Leaky ReLU activation layer
 * Fully connected layer (In 40, Out 1)
 
+#### Training results
+
+The environment was solved in 2605 episodes.
+The total rewards per episode (maximum of the 2 agents) are plotted below.
+
+![Scores per episode](https://github.com/christos-pan/deep-reinforcement-learning/blob/master/Collaboration-And-Competition/scores_per_episode_plot.png)
+
