@@ -62,4 +62,4 @@ The following ideas can be explored in the future, in order to make the training
 * Further experimentation with different neural network architectures
 * Introduction of noise, either directly in the selected actions, or integrated into the neural network parameters
 * Formal implementation of prioritized experience replay
-* Training separate neural networks for the 2 environment agents
+* Training separate neural networks for each environment agent
