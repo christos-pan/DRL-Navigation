@@ -54,3 +54,12 @@ The total rewards per episode (maximum of the 2 agents) are plotted below.
 
 ![Scores per episode](https://github.com/christos-pan/deep-reinforcement-learning/blob/master/Collaboration-And-Competition/scores_per_episode_plot.png)
 
+#### Future work
+
+The following ideas can be explored in the future, in order to make the training process faster:
+
+* Further experimentation with algorithm hyperparameters
+* Further experimentation with different neural network architectures
+* Introduction of noise, either directly in the selected actions, or integrated into the neural network parameters
+* Formal implementation of prioritized experience replay
+* Training separate neural networks for the 2 environment agents
