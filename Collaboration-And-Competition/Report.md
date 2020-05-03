@@ -3,11 +3,12 @@
 #### Algorithm
 
 The training algorithm is DDPG. 
-Agent weights are updated every 4 steps.
 
 The environment observation space consists of 3x8 variables for each agent, including the current and past 2 states.
-The DDPG agent observes all 48 variables in each training step (2 agents x 3 steps x 8 state variables).
+The DDPG agent observes all 48 variables in each training step (2 agents x 3 states x 8 state variables).
 The DDPG agent returns 4 action variables, 2 for each agent.
+
+Agent weights are updated every 4 environment steps.
 
 A simple but effective approach for prioritized experience replay is implemented.
 * When the agent successfully hits the ball over the net, this experience is recorded multiple times in the buffer.
@@ -24,4 +25,25 @@ The following hyperparameters are chosen:
 * UPDATE_EVERY = 4            (Update weights after this amount of steps)
 * SUCCESS_REPLAY_FACTOR = 4   (Add successful actions to buffer multiple times)
 * MAIN_GAME_REPLAY_FACTOR = 2 (Add experiences after 1st hit multiple times to buffer)
+
+#### Neural network architecture (Actor)
+
+The actor's neural networks (local and target) have the following layers:
+
+* Fully connected layer (In 48, Out 200)
+* ReLU activation layer
+* Fully connected layer (In 200, Out 4)
+* Tanh activation layer
+
+#### Neural network architecture (Critic)
+
+The critic's neural networks (local and target) have the following layers:
+
+* Fully connected layer (In 48, Out 80)
+* Leaky ReLU activation layer
+* Fully connected layer (In 84, Out 80) (**Note**: The selected action is introduced at this layer)
+* Leaky ReLU activation layer
+* Fully connected layer (In 80, Out 40)
+* Leaky ReLU activation layer
+* Fully connected layer (In 40, Out 1)
 
